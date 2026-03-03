@@ -1,0 +1,119 @@
+/* ------------------ */
+/* 🌈 Body Gradient */
+/* ------------------ */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Real root container */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #ff6f61, #f6d365) !important;
+}
+.st-emotion-cache-hzygls {
+    background: transparent !important;
+}
+
+/* Remove default white background */
+[data-testid="stAppViewContainer"] > .main {
+    background: transparent !important;
+}
+
+/* Remove block container background */
+.block-container {
+    background: transparent !important;
+}
+
+/* Remove header background */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+}
+[data-testid="stChatMessageContent"] {
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+}
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #d7d4d4;
+    border-right: 1px solid #333;
+}
+.st-emotion-cache-1hqbqwh.e1t8ru6f0 h1 {
+    color: #912d09;
+
+}
+section[data-testid="stSidebar"] [data-testid="stBaseButton-secondary"] {
+    background-color: #912d09 !important;
+}
+
+section[data-testid="stSidebar"] button.st-emotion-cache-pkm19r.e1mwqyj915 {
+    background-color: #912d09 !important;
+}
+
+section[data-testid="stSidebar"] button.st-emotion-cache-6ms01g e1mwqyj92 {
+    background-color: #912d09 !important;
+}
+section[data-testid="stSidebar"] button.st-emotion-cache-6ms01g.e1mwqyj92 {
+    background-color: #912d09 !important;
+}
+.st-emotion-cache-1lads1q.e1mwqyj922 p{
+    background: transparent !important;
+    border: none !important;
+    font-size: 20px !important;
+    padding: 0px 6px !important;
+}
+/* Hide only the tiny arrow icon in popover */
+.st-emotion-cache-1pbj1dt.e1jdirsb1 > span {
+    display: none !important;
+}
+
+/* Sidebar buttons */
+section[data-testid="stSidebar"] button {
+    background-color: #262626 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: none !important;
+    transition: 0.2s ease-in-out;
+}
+
+section[data-testid="stSidebar"] button:hover {
+    background-color: #3a3a3a !important;
+}
+
+/* Chat bubbles */
+[data-testid="stChatMessageContent"] {
+    border-radius: 16px !important;
+    padding: 12px !important;
+}
+
+/* User bubble */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"]) 
+[data-testid="stChatMessageContent"] {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+}
+
+/* Assistant bubble */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-assistant"]) 
+[data-testid="stChatMessageContent"] {
+    background-color: #2a2a2a;
+}
+
+.st-emotion-cache-jchovf {
+    background-color: #912d09 !important;
+}
+.st-b1, .st-b2 {
+    background: transparent !important;
+}
+[data-testid="stPopoverBody"] {
+    background: #d7d4d4 !important;
+}
+.stVerticalBlock.st-emotion-cache-wfksaw.e12zf7d53 button{
+    background-color: #912d09 !important;
+}
+
+.st-emotion-cache-1j22a0y {
+    display: none;
+}
