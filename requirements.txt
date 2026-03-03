@@ -1,7 +1,6 @@
 streamlit
-openai>=1.0.0
-PyPDF2
-python-dotenv
-google-genai
-requests
 groq
+python-dotenv
+pymupdf
+python-docx
+python-pptx
